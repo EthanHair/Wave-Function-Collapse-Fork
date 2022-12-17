@@ -12,8 +12,8 @@ function preload() {
   // }
 
   const path = 'tiles/fantasy-landscape';
-  for (let i = 0; i < 13; i++) {
-    tileImages[i] = loadImage(`${path}/${i + 1}.png`);
+  for (let i = 0; i < 35; i++) {
+    tileImages[i] = loadImage(`${path}/${i}.png`);
   }
 }
 
@@ -37,15 +37,37 @@ function setup() {
   tiles[3] = new Tile(tileImages[3], ['ABBA', 'ABBA', 'ABBA', 'AAAA']);
   tiles[4] = new Tile(tileImages[4], ['ABBA', 'ABBA', 'ABBA', 'ABBA']);
   tiles[5] = new Tile(tileImages[5], ['CCCC', 'CCCC', 'CCCC', 'CCCC']);
-  tiles[6] = new Tile(tileImages[6], ['ACCC', 'CCCC', 'CCCA', 'AAAA']);
-  tiles[7] = new Tile(tileImages[7], ['AACC', 'CCCC', 'CCAA', 'AAAA']);
+  tiles[6] = new Tile(tileImages[6], ['AACC', 'CCCC', 'CCAA', 'AAAA']);
+  tiles[7] = new Tile(tileImages[7], ['AAAC', 'CCCC', 'CAAA', 'AAAA']);
   tiles[8] = new Tile(tileImages[8], ['AAAA', 'ACCC', 'CCCA', 'AAAA']);
   tiles[9] = new Tile(tileImages[9], ['AAAA', 'AACC', 'CCAA', 'AAAA']);
-  tiles[10] = new Tile(tileImages[10], ['ACCA', 'AAAA', 'ACCA', 'AAAA']);
-  tiles[11] = new Tile(tileImages[11], ['ACCA', 'ACCA', 'ACCA', 'AAAA']);
-  tiles[12] = new Tile(tileImages[12], ['AAAA', 'ACCA', 'ACCA', 'AAAA']);
+  tiles[10] = new Tile(tileImages[10], ['AAAA', 'AAAC', 'CAAA', 'AAAA']);
+  tiles[11] = new Tile(tileImages[11], ['ACCA', 'AAAA', 'ACCA', 'AAAA']);
+  tiles[12] = new Tile(tileImages[12], ['ACCA', 'ACCA', 'ACCA', 'AAAA']);
+  tiles[13] = new Tile(tileImages[13], ['AAAA', 'ACCA', 'ACCA', 'AAAA']);
+  tiles[14] = new Tile(tileImages[14], ['DDDD', 'DDDD', 'DDDD', 'DDDD']);
+  tiles[15] = new Tile(tileImages[15], ['AADD', 'DDDD', 'DDAA', 'AAAA']);
+  tiles[16] = new Tile(tileImages[16], ['AAAD', 'DDDD', 'DAAA', 'AAAA']);
+  tiles[17] = new Tile(tileImages[17], ['AAAA', 'AADD', 'DDAA', 'AAAA']);
+  tiles[18] = new Tile(tileImages[18], ['AAAA', 'AAAD', 'DAAA', 'AAAA']);
+  tiles[19] = new Tile(tileImages[19], ['ABBA', 'AAAD', 'DBBA', 'AAAA']);
+  tiles[20] = new Tile(tileImages[20], ['ABBA', 'ABBD', 'DBBA', 'ABBA']);
+  tiles[21] = new Tile(tileImages[21], ['ABBD', 'DBBD', 'DBBA', 'ABBA']);
+  tiles[22] = new Tile(tileImages[22], ['DAAA', 'ABBA', 'ABBA', 'AAAD']);
+  tiles[23] = new Tile(tileImages[23], ['AAAA', 'ABBD', 'DBBA', 'AAAA']);
+  tiles[24] = new Tile(tileImages[24], ['ABBD', 'DDDD', 'DBBA', 'AAAA']);
+  tiles[25] = new Tile(tileImages[25], ['DBBD', 'DDDD', 'DBBD', 'DDDD']);
+  tiles[26] = new Tile(tileImages[26], ['ABBD', 'DAAD', 'DBBA', 'AAAA']);
+  tiles[27] = new Tile(tileImages[27], ['ACCD', 'DDDD', 'DCCA', 'AAAA']);
+  tiles[28] = new Tile(tileImages[28], ['DCCD', 'DDDD', 'DCCD', 'DDDD']);
+  tiles[29] = new Tile(tileImages[29], ['ACCA', 'AAAD', 'DCCA', 'AAAA']);
+  tiles[30] = new Tile(tileImages[30], ['ACCD', 'DCCD', 'DCCA', 'AAAA']);
+  tiles[31] = new Tile(tileImages[31], ['AAAA', 'ACCD', 'DCCA', 'AAAA']);
+  tiles[32] = new Tile(tileImages[32], ['DAAA', 'ACCA', 'ACCA', 'AAAD']);
+  tiles[33] = new Tile(tileImages[33], ['AAAD', 'DAAC', 'CAAA', 'AAAA']);
+  tiles[34] = new Tile(tileImages[34], ['DAAA', 'AAAC', 'CAAA', 'AAAD']);
 
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < 35; i++) {
     tiles[i].index = i;
   }
 
