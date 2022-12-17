@@ -12,7 +12,7 @@ function preload() {
   // }
 
   const path = 'tiles/fantasy-landscape';
-  for (let i = 0; i < 35; i++) {
+  for (let i = 0; i < 45; i++) {
     tileImages[i] = loadImage(`${path}/${i}.png`);
   }
 }
@@ -77,7 +77,7 @@ function setup() {
   tiles[43] = new Tile(tileImages[43], ['DBBD', 'DAAA', 'ABBD', 'DDDD']);
   tiles[44] = new Tile(tileImages[44], ['DBBA', 'AAAD', 'DBBD', 'DDDD']);
 
-  for (let i = 0; i < 35; i++) {
+  for (let i = 0; i < 45; i++) {
     tiles[i].index = i;
   }
 
