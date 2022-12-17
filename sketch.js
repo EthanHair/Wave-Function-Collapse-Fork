@@ -66,6 +66,16 @@ function setup() {
   tiles[32] = new Tile(tileImages[32], ['DAAA', 'ACCA', 'ACCA', 'AAAD']);
   tiles[33] = new Tile(tileImages[33], ['AAAD', 'DAAC', 'CAAA', 'AAAA']);
   tiles[34] = new Tile(tileImages[34], ['DAAA', 'AAAC', 'CAAA', 'AAAD']);
+  tiles[35] = new Tile(tileImages[35], ['AAAD', 'DAAC', 'CAAA', 'AAAA']);
+  tiles[36] = new Tile(tileImages[36], ['DAAA', 'AAAC', 'CAAA', 'AAAD']);
+  tiles[37] = new Tile(tileImages[37], ['DAAA', 'ACCA', 'ACCD', 'DDDD']);
+  tiles[38] = new Tile(tileImages[38], ['DCCA', 'ACCA', 'ACCD', 'DDDD']);
+  tiles[39] = new Tile(tileImages[39], ['DCCD', 'DDDD', 'DCCA', 'AAAD']);
+  tiles[40] = new Tile(tileImages[40], ['ACCD', 'DDDD', 'DCCD', 'DAAA']);
+  tiles[41] = new Tile(tileImages[41], ['DAAA', 'ABBA', 'ABBD', 'DDDD']);
+  tiles[42] = new Tile(tileImages[42], ['DBBA', 'ABBA', 'AAAD', 'DDDD']);
+  tiles[43] = new Tile(tileImages[43], ['DBBD', 'DAAA', 'ABBD', 'DDDD']);
+  tiles[44] = new Tile(tileImages[44], ['DBBA', 'AAAD', 'DBBD', 'DDDD']);
 
   for (let i = 0; i < 35; i++) {
     tiles[i].index = i;
