@@ -69,7 +69,7 @@ function setup() {
   tiles[35] = new Tile(tileImages[35], ['AAAD', 'DAAC', 'CAAA', 'AAAA']);
   tiles[36] = new Tile(tileImages[36], ['DAAA', 'AAAC', 'CAAA', 'AAAD']);
   tiles[37] = new Tile(tileImages[37], ['DAAA', 'ACCA', 'ACCD', 'DDDD']);
-  tiles[38] = new Tile(tileImages[38], ['DCCA', 'ACCA', 'ACCD', 'DDDD']);
+  tiles[38] = new Tile(tileImages[38], ['DCCA', 'ACCA', 'AAAD', 'DDDD']);
   tiles[39] = new Tile(tileImages[39], ['DCCD', 'DDDD', 'DCCA', 'AAAD']);
   tiles[40] = new Tile(tileImages[40], ['ACCD', 'DDDD', 'DCCD', 'DAAA']);
   tiles[41] = new Tile(tileImages[41], ['DAAA', 'ABBA', 'ABBD', 'DDDD']);
